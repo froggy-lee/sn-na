@@ -21,12 +21,12 @@ $speed: 5s;
 $borderColor: #555;
 
 $images:
-    url('https://kenh14cdn.com/thumb_w/660/2020/7/17/brvn-15950048783381206275371.jpg'),
-    url('https://toigingiuvedep.vn/wp-content/uploads/2022/03/tai-hinh-nen-phong-canh-thien-nhien-3d-cho-dien-thoai-dep-nhat.jpg'),
-    url('https://picsum.photos/420/300?random=3'),
-    url('https://picsum.photos/420/300?random=4'),
+    url('/images/photo1.jpg'),
+    url('/images/photo2.jpg'),
+    url('/images/photo3.jpg'),
+    url('/images/photo4.jpg'),
     url('https://picsum.photos/420/300?random=5'), 
-    url('https://kenh14cdn.com/thumb_w/660/2020/7/17/brvn-15950048783381206275371.jpg');
+    url('/images/photo1.jpg');
 
 // Preload to images
 .imgLoader {
@@ -253,7 +253,7 @@ $images:
 .table {
   width: 375px;
   height: 80px;
-  margin-top: 2rem;
+  margin-top: 4rem;
   background-color: #d4e5ff;
   display: flex;
   justify-content: center;
