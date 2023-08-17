@@ -253,6 +253,7 @@ $images:
 .table {
   width: 375px;
   height: 80px;
+  margin-top: 2rem;
   background-color: #d4e5ff;
   display: flex;
   justify-content: center;
@@ -279,7 +280,7 @@ $images:
         position: relative;
         display: inline-block;
         animation: move 15s infinite linear;
-        color: #EBB55F}}
+        color: #e2555c}}
       }
 @keyframes move
  { from
