@@ -22,9 +22,9 @@ function HomePage() {
 
           <div className="container">
             <h1 className="title">
-              Turning pages
+              HAPPY
               <br />
-              with css
+              BIRTHDAY
             </h1>
 
             <div className="book">
@@ -58,11 +58,7 @@ function HomePage() {
             <div className="table center">
               <div className="monitor-wrapper center">
                 <div className="monitor center">
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
-                  </p>
+                  <p>Không biết viết gì =))</p>
                 </div>
               </div>
             </div>

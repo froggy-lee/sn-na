@@ -25,7 +25,7 @@ $images:
     url('/images/photo2.jpg'),
     url('/images/photo3.jpg'),
     url('/images/photo4.jpg'),
-    url('https://picsum.photos/420/300?random=5'), 
+    url('/images/photo5.jpg'),
     url('/images/photo1.jpg');
 
 // Preload to images
@@ -279,11 +279,11 @@ $images:
         font-size: 30px;
         position: relative;
         display: inline-block;
-        animation: move 15s infinite linear;
+        animation: move 7s infinite linear;
         color: #e2555c}}
       }
 @keyframes move
  { from
     {left: 800px}
   to
-    {left: -2100px}}
+    {left: -500px}}
