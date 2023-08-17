@@ -12,6 +12,8 @@ body {
     color: #555;
     text-align: center;
     padding: 4em 0;
+    background: url("https://demoda.vn/wp-content/uploads/2022/04/hinh-cute-cho-dien-thoai-iphone.jpg") no-repeat;
+    background-size: cover;
 }
 
 $bookAngle: 60deg;
@@ -20,7 +22,7 @@ $borderColor: #555;
 
 $images:
     url('https://kenh14cdn.com/thumb_w/660/2020/7/17/brvn-15950048783381206275371.jpg'),
-    url('https://picsum.photos/420/300?random=2'),
+    url('https://toigingiuvedep.vn/wp-content/uploads/2022/03/tai-hinh-nen-phong-canh-thien-nhien-3d-cho-dien-thoai-dep-nhat.jpg'),
     url('https://picsum.photos/420/300?random=3'),
     url('https://picsum.photos/420/300?random=4'),
     url('https://picsum.photos/420/300?random=5'), 
@@ -247,3 +249,40 @@ $images:
     }
   }
 }
+
+.table {
+  width: 375px;
+  height: 80px;
+  background-color: #d4e5ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .monitor-wrapper
+    {
+    background: #050321;
+    width: 360px;
+    height: 60px;
+    box-shadow: 0px 2px 2px 2px rgba(0,0,0,0.30);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .monitor
+     { width: 360px;
+      height: 40px;
+      background-color: #344151;
+      overflow: hidden;
+      white-space: nowrap;
+      box-shadow: inset 0px 5px 10px 2px rgba(0,0,0,0.3)};
+      p
+        {font-family: 'VT323', monospace;
+        font-size: 30px;
+        position: relative;
+        display: inline-block;
+        animation: move 15s infinite linear;
+        color: #EBB55F}}
+      }
+@keyframes move
+ { from
+    {left: 800px}
+  to
+    {left: -2100px}}

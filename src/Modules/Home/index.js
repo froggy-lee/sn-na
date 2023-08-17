@@ -4,38 +4,50 @@ import "./styles.scss";
 function HomePage() {
   return (
     <>
-      <div class="imgLoader"></div>
+      <div className="imgLoader"></div>
 
-      <div class="container">
-        <h1 class="title">
+      <div className="container">
+        <h1 className="title">
           Turning pages
           <br />
           with css
         </h1>
 
-        <div class="book">
-          <div class="gap"></div>
-          <div class="pages">
-            <div class="page"></div>
-            <div class="page"></div>
-            <div class="page"></div>
-            <div class="page"></div>
-            <div class="page"></div>
-            <div class="page"></div>
+        <div className="book">
+          <div className="gap"></div>
+          <div className="pages">
+            <div className="page"></div>
+            <div className="page"></div>
+            <div className="page"></div>
+            <div className="page"></div>
+            <div className="page"></div>
+            <div className="page"></div>
           </div>
-          <div class="flips">
-            <div class="flip flip1">
-              <div class="flip flip2">
-                <div class="flip flip3">
-                  <div class="flip flip4">
-                    <div class="flip flip5">
-                      <div class="flip flip6">
-                        <div class="flip flip7"></div>
+          <div className="flips">
+            <div className="flip flip1">
+              <div className="flip flip2">
+                <div className="flip flip3">
+                  <div className="flip flip4">
+                    <div className="flip flip5">
+                      <div className="flip flip6">
+                        <div className="flip flip7"></div>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div className="table center">
+          <div className="monitor-wrapper center">
+            <div className="monitor center">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
             </div>
           </div>
         </div>
